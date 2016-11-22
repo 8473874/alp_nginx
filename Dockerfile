@@ -13,4 +13,4 @@ RUN apk --update add nginx
 CMD ["/bin/bash"]
 
 # 运行 nginx
-CMD [“nginx”, “-g”, “daemon off;”]
+CMD ["nginx", "-g", "daemon off;"]
